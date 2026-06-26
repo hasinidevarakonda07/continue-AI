@@ -1,32 +1,131 @@
-## Mintlify Starter Kit
+# AI Code Review Assistant
 
-Click on `Use this template` to copy the Mintlify starter kit. The starter kit contains examples including
+## Overview
 
-- Guide pages
-- Navigation
-- Customizations
-- API Reference pages
-- Use of popular components
+AI Code Review Assistant is an intelligent software engineering tool designed to automate code analysis, improve code quality, and assist developers during the review process. The system leverages Large Language Models (LLMs) to analyze repositories, generate suggestions, identify potential issues, and improve developer productivity.
 
-### Development
+This project aims to reduce manual code review effort while helping developers write cleaner, more maintainable, and reliable software.
 
-Install the [Mintlify CLI](https://www.npmjs.com/package/mint) to preview the documentation changes locally. To install, use the following command
+---
 
+## Features
+
+### Automated Code Analysis
+
+* Detect code quality issues
+* Identify potential bugs and bad practices
+* Suggest code improvements
+* Highlight maintainability concerns
+
+### AI-Powered Code Review
+
+* Review source code using LLMs
+* Explain complex code sections
+* Provide optimization suggestions
+* Generate refactoring recommendations
+
+### Documentation Generation
+
+* Generate function descriptions
+* Create project summaries
+* Improve code readability
+* Produce developer-friendly documentation
+
+### Test Case Generation
+
+* Generate unit test suggestions
+* Identify edge cases
+* Improve testing coverage
+
+### Repository Insights
+
+* Analyze project structure
+* Identify complex modules
+* Generate code quality reports
+* Track maintainability metrics
+
+---
+
+## Tech Stack
+
+* Python
+* TypeScript
+* React
+* Node.js
+* Large Language Models (LLMs)
+* GitHub API
+* VS Code Extension Framework
+
+---
+
+## Project Architecture
+
+1. Source code is collected from the repository.
+2. Files are processed and analyzed.
+3. Relevant context is sent to the language model.
+4. AI-generated feedback is produced.
+5. Results are displayed through an interactive interface.
+
+---
+
+## Use Cases
+
+* Software code reviews
+* Pull request analysis
+* Documentation generation
+* Code understanding
+* Developer productivity enhancement
+
+---
+
+## Future Enhancements
+
+* Security vulnerability detection
+* Performance analysis
+* Multi-language support
+* CI/CD integration
+* Advanced repository analytics
+* Team collaboration dashboard
+
+---
+
+## Installation
+
+```bash
+git clone https://github.com/hasinidevarakonda07/continue-AI.git
+cd continue-AI
+npm install
 ```
-npm i -g mint
+
+Run the project:
+
+```bash
+npm run dev
 ```
 
-Run the following command at the root of your documentation (where docs.json is)
+---
 
-```
-mint dev
-```
+## Learning Objectives
 
-### Publishing Changes
+This project demonstrates:
 
-Install our Github App to auto propagate changes from your repo to your deployment. Changes will be deployed to production automatically after pushing to the default branch. Find the link to install on your dashboard.
+* Software Engineering Principles
+* AI-Assisted Development
+* Large-Scale Application Architecture
+* Code Analysis Techniques
+* Modern Web Development
+* Developer Tooling
 
-#### Troubleshooting
+---
 
-- If the dev environment isn't running - Run `mint update` to ensure you have the most recent version of the CLI.
-- Page loads as a 404 - Make sure you are running in a folder with `docs.json`
+## Author
+
+Hasini Devarakonda
+
+B.Tech Computer Science Engineering
+
+---
+
+## License
+
+This project is intended for educational, research, and learning purposes.
